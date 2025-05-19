@@ -6,7 +6,7 @@ import Card from './components/Card';
 
 export default function App() {
 
-  // create an object:
+  // create an object: - in Cards page -
     const Data = [
     {
       image: 'https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&w=400',
