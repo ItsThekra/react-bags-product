@@ -8,6 +8,9 @@ export default function Footer() {
              marginTop: '20px' }}>
 
           <p>&copy; 2025 - All rights reserved for the store</p>
+          <a href="#">link</a> <br />
+          <a href="#">link</a> <br />
+          <a href="#">link</a> <br />
     </footer>
   )
 }
