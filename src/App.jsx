@@ -10,31 +10,31 @@ export default function App() {
     const Data = [
     {
       image: 'https://images.pexels.com/photos/2081199/pexels-photo-2081199.jpeg?auto=compress&cs=tinysrgb&w=400',
-      title: 'Card 1',
+      title: 'Bag - 1',
       description: 'This is bag 1',
       items: ['01', '02', '03']
     },
     {
       image: 'https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=400',
-      title: 'Card 2',
+      title: 'Bag - 2',
       description: 'This is bag 2',
       items: ['01', '02', '03']
     },
     {
       image: 'https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=400',
-      title: 'Card 3',
+      title: 'Bag - 3',
       description: 'This is bag 3',
       items: ['01', '02', '03']
     },
     {
       image: 'https://images.pexels.com/photos/2977304/pexels-photo-2977304.jpeg?auto=compress&cs=tinysrgb&w=400',
-      title: 'Card 4',
+      title: 'Bag - 4',
       description: 'This is bag 4',
       items: ['01', '02', '03']
     },
     {
       image: 'https://images.pexels.com/photos/1986996/pexels-photo-1986996.jpeg?auto=compress&cs=tinysrgb&w=400',
-      title: 'Card 5',
+      title: 'Bag - 5 ',
       description: 'This is bag 5',
       items: ['01', '02', '03']
     }
@@ -48,7 +48,7 @@ export default function App() {
         flexWrap: 'wrap',
         gap: '20px',
         justifyContent: 'center',
-        margin: '20px 0'
+        margin: '60px 0'
       }}>
         {Data.map((card) => (
           <Card
